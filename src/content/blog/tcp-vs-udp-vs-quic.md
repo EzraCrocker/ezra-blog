@@ -2,15 +2,18 @@
 title: 'QUICker than TCP but more reliable than UDP?'
 description: 'A beginner-friendly explanation of TCP, UDP, and QUIC, including how they work, where they are used, and why they matter in networking.'
 pubDate: 'Jun 6 2026'
-heroImage: '../../assets/blog-placeholder-1.jpg'
+heroImage: '../../assets/Fig2_UDPwork.jpg'
 ---
 # TCP vs UDP vs QUIC
 
 TCP, UDP, and QUIC are transport protocols that help applications communicate across networks. They all move data between devices, but they make different tradeoffs around reliability, speed, connection setup, and performance.
 
 Below is a summary but if you would like to read more about these protocols look no further than:
+
 TCP -  https://www.ietf.org/rfc/rfc9293.html
+
 UDP -  https://www.rfc-editor.org/info/rfc768/
+
 QUIC - https://www.rfc-editor.org/rfc/rfc9000.html
 
 ## Why Transport Protocols Matter
