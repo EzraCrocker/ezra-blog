@@ -1,0 +1,35 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title="Notes | Ezra Crocker" description="Technical notes and explanations by Ezra Crocker" />
+  </head>
+  <body>
+    <Header />
+    <main>
+	<h1>Blog</h1>
+
+	<p>
+		This section will contain longer technical posts, study reflections, and explanations of
+		networking and infrastructure concepts I am learning or documenting.
+	</p>
+
+	<p>
+		The focus of this blog is network engineering, infrastructure troubleshooting, cloud,
+		automation, security, and the process of becoming a stronger technical professional.
+	</p>
+
+	<h2>Planned Posts</h2>
+
+	<ul>
+		<li>What I Learned Building This Site with Astro, GitHub, and Cloudflare Pages</li>
+		<li>DHCP, Static IPs, and Reservations Explained</li>
+		<li>What Happens During a TLS Handshake?</li>
+		<li>How VLANs Help Segment a Network</li>
+	</ul>
+</main>
