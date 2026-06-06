@@ -8,6 +8,11 @@ heroImage: '../../assets/blog-placeholder-1.jpg'
 
 TCP, UDP, and QUIC are transport protocols that help applications communicate across networks. They all move data between devices, but they make different tradeoffs around reliability, speed, connection setup, and performance.
 
+Below is a summary but if you would like to read more about these protocols look no further than:
+TCP -  https://www.ietf.org/rfc/rfc9293.html
+UDP -  https://www.rfc-editor.org/info/rfc768/
+QUIC - https://www.rfc-editor.org/rfc/rfc9000.html
+
 ## Why Transport Protocols Matter
 
 When two devices communicate, the application usually does not just send raw data directly across the internet. The data has to be packaged, addressed, transmitted, received, checked, and sometimes retransmitted.
